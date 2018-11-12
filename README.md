@@ -2,7 +2,7 @@
 ##  UCI HAR dataset
 <li>The pre-processing steps included:</li>
 <li>Pre-processing accelerometer and gyroscope using noise filters. Sensor Data is captured at
-frequency of 50 Hz.<li>
+frequency of 50 Hz.</li>
 <li>Splitting data into fixed windows of 2.56 seconds (128 data points) with 50% overlap.Splitting
 of accelerometer data into gravitational (total) and body motion components.</li>
 <li>A number of time and frequency features commonly used in the field of human activity
@@ -24,4 +24,8 @@ block</li>
 <li>Channels: 9, for the nine input variables.</li>
 
 ## Model Summary ##
-![model summary](https://drive.google.com/file/d/1Q1vY8TWxB6igd80cx00RRErchAQz4-jP/view?usp=sharing "Title is optional")
+![model summary](https://github.com/Hstellar/Human_Activity_Recognition/blob/master/model.png "Title is optional")
+![model](https://github.com/Hstellar/Human_Activity_Recognition/blob/master/summary_model.PNG "Title is optional")
+## Result ##
+![result](https://github.com/Hstellar/Human_Activity_Recognition/blob/master/CNN_LSTM_acc.PNG "Title is optional")
+
